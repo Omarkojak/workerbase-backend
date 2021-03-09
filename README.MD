@@ -216,6 +216,11 @@ The functions should be developed in the following order:
 
 This will take you some time to solve. Do not spend more than an hour. When time is over, just commit your changes and push the last working version, even if it is not perfect.
 
+- To run this application
+  - please clone both frontend and backend repos
+  - `yarn` for both to download dependenices
+  - `yarn start` for backend then for frontend. (Note: this order to make the frontend run on another port).
+
 - for this task what still to do 
   - couldn't understand and implement web hooks since they were new to me.
   - add login & register cycle with jwt so no need to add the from field in sending emails and to access the email inside the backend endpoint for getting the emails list and this way i will remove its hardcoding.
